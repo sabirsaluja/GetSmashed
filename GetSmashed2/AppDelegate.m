@@ -4,11 +4,16 @@
 //
 //  Created by Sabir Saluja on 12/7/16.
 //  Copyright © 2016 Sabir Saluja. All rights reserved.
-//
+//  email: sabirsal@usc.edu
 
 #import "AppDelegate.h"
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
+#import <FBSDKLoginKit/FBSDKLoginKit.h>
+#import "TournamentsModel.h"
+
 
 @interface AppDelegate ()
+@property (strong) TournamentsModel *model;
 
 @end
 
@@ -16,8 +21,31 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    [[FBSDKApplicationDelegate sharedInstance] application:application
+                             didFinishLaunchingWithOptions:launchOptions];
+    
     return YES;
+}
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url
+  sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    
+    BOOL handled = [[FBSDKApplicationDelegate sharedInstance] application:application
+                                                                  openURL:url
+                                                        sourceApplication:sourceApplication
+                                                               annotation:annotation
+                    ];
+    // Add any custom logic here.
+//    NSLog(@"finished launching.");
+//    FBSDKAccessToken* token = [FBSDKAccessToken currentAccessToken];
+    
+//    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main"
+//                                                         bundle:nil];
+//    UIViewController *loginController = [storyboard instantiateViewControllerWithIdentifier:@"loginViewController"];
+//    [loginController performSegueWithIdentifier:@"loginCompleted" sender:loginController];
+    
+    return handled;
 }
 
 

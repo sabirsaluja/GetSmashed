@@ -7,25 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		035BD8231DF9211300B87571 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035BD8221DF9211300B87571 /* FBSDKCoreKit.framework */; };
+		035BD8251DF9213F00B87571 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035BD8241DF9213F00B87571 /* FBSDKLoginKit.framework */; };
+		035BD8271DF9214600B87571 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035BD8261DF9214600B87571 /* FBSDKShareKit.framework */; };
+		035BD8291DF9214C00B87571 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035BD8281DF9214C00B87571 /* Bolts.framework */; };
+		035BD82F1DF9378200B87571 /* Tournament.m in Sources */ = {isa = PBXBuildFile; fileRef = 035BD82E1DF9378200B87571 /* Tournament.m */; };
+		035BD8321DF937A000B87571 /* TournamentsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 035BD8311DF937A000B87571 /* TournamentsModel.m */; };
 		03850BA21DF91D03004FB375 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03850BA11DF91D03004FB375 /* main.m */; };
 		03850BA51DF91D03004FB375 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03850BA41DF91D03004FB375 /* AppDelegate.m */; };
-		03850BA81DF91D03004FB375 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03850BA71DF91D03004FB375 /* ViewController.m */; };
+		03850BA81DF91D03004FB375 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03850BA71DF91D03004FB375 /* LoginViewController.m */; };
 		03850BAB1DF91D03004FB375 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03850BA91DF91D03004FB375 /* Main.storyboard */; };
 		03850BAD1DF91D03004FB375 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03850BAC1DF91D03004FB375 /* Assets.xcassets */; };
 		03850BB01DF91D03004FB375 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03850BAE1DF91D03004FB375 /* LaunchScreen.storyboard */; };
+		0385672E1E03DC3600885F72 /* AttendedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0385672D1E03DC3600885F72 /* AttendedTableViewController.m */; };
+		03924D8C1E01E16D006A3CF1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03924D8B1E01E16D006A3CF1 /* MainViewController.m */; };
+		03CD07821E0268E900058798 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CD07811E0268E900058798 /* MapViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		035BD8221DF9211300B87571 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../../../../Documents/FacebookSDKs-iOS-4.18.0/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		035BD8241DF9213F00B87571 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../../../../Documents/FacebookSDKs-iOS-4.18.0/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		035BD8261DF9214600B87571 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "../../../../../Documents/FacebookSDKs-iOS-4.18.0/FBSDKShareKit.framework"; sourceTree = "<group>"; };
+		035BD8281DF9214C00B87571 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../../../../Documents/FacebookSDKs-iOS-4.18.0/Bolts.framework"; sourceTree = "<group>"; };
+		035BD82D1DF9378200B87571 /* Tournament.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tournament.h; sourceTree = "<group>"; };
+		035BD82E1DF9378200B87571 /* Tournament.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tournament.m; sourceTree = "<group>"; };
+		035BD8301DF937A000B87571 /* TournamentsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TournamentsModel.h; sourceTree = "<group>"; };
+		035BD8311DF937A000B87571 /* TournamentsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TournamentsModel.m; sourceTree = "<group>"; };
 		03850B9D1DF91D03004FB375 /* GetSmashed2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetSmashed2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03850BA11DF91D03004FB375 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		03850BA31DF91D03004FB375 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		03850BA41DF91D03004FB375 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		03850BA61DF91D03004FB375 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		03850BA71DF91D03004FB375 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		03850BA61DF91D03004FB375 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		03850BA71DF91D03004FB375 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		03850BAA1DF91D03004FB375 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		03850BAC1DF91D03004FB375 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03850BAF1DF91D03004FB375 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03850BB11DF91D03004FB375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0385672C1E03DC3600885F72 /* AttendedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttendedTableViewController.h; sourceTree = "<group>"; };
+		0385672D1E03DC3600885F72 /* AttendedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttendedTableViewController.m; sourceTree = "<group>"; };
+		03924D8A1E01E16D006A3CF1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ../MainViewController.h; sourceTree = "<group>"; };
+		03924D8B1E01E16D006A3CF1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ../MainViewController.m; sourceTree = "<group>"; };
+		03937C4A1DF9E97C00398923 /* GetSmashed2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GetSmashed2.entitlements; sourceTree = "<group>"; };
+		03CD07801E0268E900058798 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		03CD07811E0268E900058798 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,15 +57,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				035BD8251DF9213F00B87571 /* FBSDKLoginKit.framework in Frameworks */,
+				035BD8231DF9211300B87571 /* FBSDKCoreKit.framework in Frameworks */,
+				035BD8271DF9214600B87571 /* FBSDKShareKit.framework in Frameworks */,
+				035BD8291DF9214C00B87571 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		035BD8211DF9205C00B87571 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				035BD8281DF9214C00B87571 /* Bolts.framework */,
+				035BD8261DF9214600B87571 /* FBSDKShareKit.framework */,
+				035BD8241DF9213F00B87571 /* FBSDKLoginKit.framework */,
+				035BD8221DF9211300B87571 /* FBSDKCoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		03850B941DF91D03004FB375 = {
 			isa = PBXGroup;
 			children = (
+				035BD8211DF9205C00B87571 /* Frameworks */,
 				03850B9F1DF91D03004FB375 /* GetSmashed2 */,
 				03850B9E1DF91D03004FB375 /* Products */,
 			);
@@ -58,11 +98,22 @@
 		03850B9F1DF91D03004FB375 /* GetSmashed2 */ = {
 			isa = PBXGroup;
 			children = (
+				03937C4A1DF9E97C00398923 /* GetSmashed2.entitlements */,
+				0385672C1E03DC3600885F72 /* AttendedTableViewController.h */,
+				0385672D1E03DC3600885F72 /* AttendedTableViewController.m */,
+				03924D8A1E01E16D006A3CF1 /* MainViewController.h */,
+				03924D8B1E01E16D006A3CF1 /* MainViewController.m */,
 				03850BA31DF91D03004FB375 /* AppDelegate.h */,
 				03850BA41DF91D03004FB375 /* AppDelegate.m */,
-				03850BA61DF91D03004FB375 /* ViewController.h */,
-				03850BA71DF91D03004FB375 /* ViewController.m */,
+				03850BA61DF91D03004FB375 /* LoginViewController.h */,
+				03850BA71DF91D03004FB375 /* LoginViewController.m */,
+				035BD82D1DF9378200B87571 /* Tournament.h */,
+				035BD82E1DF9378200B87571 /* Tournament.m */,
+				035BD8301DF937A000B87571 /* TournamentsModel.h */,
+				035BD8311DF937A000B87571 /* TournamentsModel.m */,
 				03850BA91DF91D03004FB375 /* Main.storyboard */,
+				03CD07801E0268E900058798 /* MapViewController.h */,
+				03CD07811E0268E900058798 /* MapViewController.m */,
 				03850BAC1DF91D03004FB375 /* Assets.xcassets */,
 				03850BAE1DF91D03004FB375 /* LaunchScreen.storyboard */,
 				03850BB11DF91D03004FB375 /* Info.plist */,
@@ -110,7 +161,13 @@
 				TargetAttributes = {
 					03850B9C1DF91D03004FB375 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 75J4ML2TA3;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -150,7 +207,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03850BA81DF91D03004FB375 /* ViewController.m in Sources */,
+				0385672E1E03DC3600885F72 /* AttendedTableViewController.m in Sources */,
+				035BD8321DF937A000B87571 /* TournamentsModel.m in Sources */,
+				035BD82F1DF9378200B87571 /* Tournament.m in Sources */,
+				03CD07821E0268E900058798 /* MapViewController.m in Sources */,
+				03850BA81DF91D03004FB375 /* LoginViewController.m in Sources */,
+				03924D8C1E01E16D006A3CF1 /* MainViewController.m in Sources */,
 				03850BA51DF91D03004FB375 /* AppDelegate.m in Sources */,
 				03850BA21DF91D03004FB375 /* main.m in Sources */,
 			);
@@ -218,7 +280,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -260,7 +322,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -272,6 +334,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GetSmashed2/GetSmashed2.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 75J4ML2TA3;
+				FRAMEWORK_SEARCH_PATHS = "~/Documents/FacebookSDKs-iOS-4.18.0";
 				INFOPLIST_FILE = GetSmashed2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SabCo.GetSmashed2;
@@ -283,6 +349,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GetSmashed2/GetSmashed2.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 75J4ML2TA3;
+				FRAMEWORK_SEARCH_PATHS = "~/Documents/FacebookSDKs-iOS-4.18.0";
 				INFOPLIST_FILE = GetSmashed2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SabCo.GetSmashed2;
@@ -309,6 +379,7 @@
 				03850BB61DF91D03004FB375 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
